@@ -2,7 +2,7 @@
     function updateSizeText() {
       var width = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
       var height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
-      var sizeText = "Width: " + width + "px  Height: " + height + "px";
+      var sizeText = "Width: " + width + " and Height: " + height ;
       document.getElementById("sizeText").textContent = sizeText;
     }
 
